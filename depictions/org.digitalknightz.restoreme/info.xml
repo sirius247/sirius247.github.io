@@ -1,31 +1,33 @@
 <packageInfo>
-    <bundleId>ch.mdaus.exampletweak</bundleId>
-    <name>Example Tweak</name>
-    <version>0.0.2</version>
+    <bundleId>org.digitalknightz.restoreme</bundleId>
+    <name>RestoreMe</name>
+    <version>1.0</version>
     <descriptions>
         <description>
-            An example package for testing out our personal Cydia repository
+            Restore your iDevice to a non jailbroken state
         </description>
         <description>
-            This is just a bit more detail about what the tweak does... nothing :)
-        </description>
+            USE AT YOUR OWN DISCRETION
+    	</description>
+	<description>
+	    Upon installing this you agree that you accept all resposibility for anything that may happen to your device. We
+	    are not responsible for any damage that may occur.
+    	</description>
+	<description>
+	    This will remove all tweaks, stashing and jailbroken files. Upon completion we highly recommend that you erase all
+	    content and settings.
+	</description>
     </descriptions>
     <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>11.1.2</maxiOS>
+        <miniOS>10.0</miniOS>
+        <maxiOS>10.9</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>mobilesubstrate</dependency>
-        <dependency>some other dependency</dependency>
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>V0.0.2 </changeVersion>
-            <changeDescription>An important change</changeDescription>
-            <changeDescription>Another important change</changeDescription>
-        </change>
-        <change>
-            <changeVersion>V0.0.1</changeVersion>
+            <changeVersion>V1.0 </changeVersion>
             <changeDescription>Initial Release</changeDescription>
         </change>
     </changelog>
