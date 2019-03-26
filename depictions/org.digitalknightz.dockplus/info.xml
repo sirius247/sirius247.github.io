@@ -1,0 +1,34 @@
+<packageInfo>
+    <bundleId>org.digitalknightz.restoreme</bundleId>
+    <name>RestoreMe</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            Restore your iDevice to a non jailbroken state
+        </description>
+        <description>
+            USE AT YOUR OWN DISCRETION
+    	</description>
+	<description>
+	    Upon installing this you agree that you accept all resposibility for anything that may happen to your device. We
+	    are not responsible for any damage that may occur.
+    	</description>
+	<description>
+	    This will remove all tweaks, stashing and jailbroken files. Upon completion we highly recommend that you erase all
+	    content and settings.
+	</description>
+    </descriptions>
+    <compatibility>
+        <miniOS>10.0</miniOS>
+        <maxiOS>10.9</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V1.0 </changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
