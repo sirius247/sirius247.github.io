@@ -1,7 +1,7 @@
 <packageInfo>
     <bundleId>org.digitalknightz.dockplus</bundleId>
     <name>Dock+</name>
-    <version>0.6-1</version>
+    <version>0.6-3</version>
     <descriptions>
         <description>
 		Customize your dock to your liking!
@@ -19,6 +19,10 @@
         <dependency>mobilesubstrate</dependency>
     </dependencies>
     <changelog>
+	    <change>
+		    <changeVersion>0.6-3</changeVersion>
+		    <changeDescription>Added Settings</changeDescription>
+	</change>
         <change>
             <changeVersion>0.6-1 </changeVersion>
             <changeDescription>Initial Release</changeDescription>
